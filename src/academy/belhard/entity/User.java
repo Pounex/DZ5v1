@@ -15,7 +15,8 @@ public class User extends Person {
         return "Имя: " + this.getFullName() + "\nE-mail: " + this.email;
     }
 
-    public boolean isPasswordCorrect(String pass){
+    public boolean isPasswordCorrect(String pass) {
         return this.password.equals(pass);
 
+    }
 }
